@@ -1,0 +1,13 @@
+Package: nwREM
+Type: Package
+Title: Implementation of an L0 penalized mvGMM EM algorithm
+Version: 1.0
+Date: 2019-04-22
+Author: Nicole Wakim
+Maintainer: Nicole Wakim <nwakim@umich.edu>
+Description: This package includes an implementation of our robust EM algorithm. The algorithm maximizes the likelihood of a mixture of multivariate Gaussians that includes an L0 penalty. The main function is em_alg_GMM, and it's non-penalized counterpart is em.mv.gmm as implemented in class. 
+License: GPL-3
+Imports: Rcpp (>= 0.12.19)
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 6.1.1
+Encoding: UTF-8
